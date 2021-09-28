@@ -18,7 +18,7 @@ This small project(CRUD operations) was generated with Angular CLI version 11.2.
 
 
 ## TASK 3
-
+```javascript
   a = [{id:1, value:3}, {id:2, value:7}, {id:3, value:3}, {id:4, value:1}, {id:5, value:4}]
 
   const repeatMap = new Map();     // (broj, brojPonavaljanja)
@@ -51,3 +51,5 @@ This small project(CRUD operations) was generated with Angular CLI version 11.2.
   let maxId = // find max id in the first array
 
   let solution = { maxId, sljedeciBroj }
+  
+  ```
