@@ -1,7 +1,18 @@
 
 ## TASK 1
-![image](https://user-images.githubusercontent.com/52496724/134902289-e0310da0-0692-4534-a7c3-0a9e0635fa2e.png)
 
+``` javascript
+const lookup = (obj, path) =>
+  {
+      return eval( 'obj.' + path );
+
+  }
+ 
+  //example 
+  const a = { property1: { property2: "Apple", property3: 'Orange' } };
+  const b = 'property1.property3'
+  console.log(lookup(a, b));
+``` 
 
 ## TASK 2
 
