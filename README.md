@@ -12,6 +12,9 @@ This small project(CRUD operations) was generated with Angular CLI version 11.2.
 - In a command window type npm install. This creates a node_modules folder and installs all packages from the package.json file into that folder.
 - Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
+![image](https://user-images.githubusercontent.com/52496724/135042131-5aa16955-d5e0-4525-9274-df25e4091cdf.png)
+
+
 ## TASK 3
 My attempt, but not completed..
 ![image](https://user-images.githubusercontent.com/52496724/134942910-ac478297-5b52-460e-8a07-5f4dc579834f.png)
