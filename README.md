@@ -7,7 +7,7 @@ const lookup = (obj, path) =>
       let result =  eval( 'obj.' + path );
        if (result === undefined)
          return "bad path";
-         return result;
+       return result;
   }
  
   //example 
