@@ -20,8 +20,6 @@ export class CarService {
   }
 
   addCar(car: Car) {
-    //this.cars.push(car);
-    // return this.cars;
 
     const newCar = {
       ...car,
@@ -31,10 +29,6 @@ export class CarService {
     this.cars.push(newCar);
     return this.cars;
 
-    /*  const newContacts = [
-        ...this.cars,
-        newCar,
-      ];*/
   }
 
   getCar(id: any): Car {
