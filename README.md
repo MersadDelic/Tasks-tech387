@@ -13,6 +13,8 @@ This small project(CRUD operations) was generated with Angular CLI version 11.2.
 - Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
 ![image](https://user-images.githubusercontent.com/52496724/135042131-5aa16955-d5e0-4525-9274-df25e4091cdf.png)
+![image](https://user-images.githubusercontent.com/52496724/135042348-21555580-6dee-4fac-88ae-5a90bc156e55.png)
+![image](https://user-images.githubusercontent.com/52496724/135042417-a95cff57-42ff-4d33-8304-abaeb13110cf.png)
 
 
 ## TASK 3
