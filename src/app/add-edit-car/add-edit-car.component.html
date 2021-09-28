@@ -1,0 +1,35 @@
+<div class="col-md-6 user-container" style="margin: auto">
+
+  <h2 class="text-center" *ngIf="add">Add Car</h2>
+  <h2 class="text-center" *ngIf="!add">Edit Car</h2>
+
+  <form [formGroup]="formGroup" (ngSubmit)="onSubmit()" class="form">
+    <div class="mb-3">
+      <label class="form-label" for="brand">Brand</label>
+      <input type="text" class="form-control" id="brand" placeholder="Enter brand " formControlName="brand">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label" for="model">Model</label>
+      <input type="text" class="form-control" id="model" placeholder="Enter model" formControlName="model">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label" for="color">Color</label>
+      <input type="text" class="form-control" id="color" placeholder="Enter color of the car" formControlName="color">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label" for="year">Year</label>
+      <input type="text" class="form-control" id="year" placeholder="Enter production year" formControlName="year">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label" for="power">Power <small>[kW]</small> </label>
+      <input type="text" class="form-control" id="power" placeholder="Enter engine power" formControlName="power">
+    </div>
+
+    <button type="submit" class="btn btn-success me-2">Save</button>
+    <button type="submit" class="btn btn-danger" routerLink="/">Cancel</button>
+  </form>
+</div>
