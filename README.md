@@ -18,5 +18,36 @@ This small project(CRUD operations) was generated with Angular CLI version 11.2.
 
 
 ## TASK 3
-My attempt, but not completed..
-![image](https://user-images.githubusercontent.com/52496724/134942910-ac478297-5b52-460e-8a07-5f4dc579834f.png)
+
+  a = [{id:1, value:3}, {id:2, value:7}, {id:3, value:3}, {id:4, value:1}, {id:5, value:4}]
+
+  const repeatMap = new Map();     // (broj, brojPonavaljanja)
+  //let arrayKeys = Array.from(repeatMap.keys());
+  // let arrayValues = a.values();
+
+  a.forEach(item => {
+
+      if (!Array.from(repeatMap.keys()).includes(item.value)) {
+          repeatMap.set(item.value, 1)
+      } else {
+          repeatMap.set(item.value, repeatMap.get(item.value) + 1)
+      }
+  }
+  );
+
+  Array.from(repeatMap.keys()).forEach(key => {
+      if (repeatMap.get(key) < 2)
+          repeatMap.delete(key);
+  })
+
+  let nextNum = repeatMap.entries().next().value + 1;
+  while(true) {
+      if (!Array.from(repeatMap.keys()).includes(nextNum))
+          break;
+      else
+          nextNum ++;
+  }
+
+  let maxId = // find max id in the first array
+
+  let solution = { maxId, sljedeciBroj }
