@@ -4,8 +4,10 @@
 ``` javascript
 const lookup = (obj, path) =>
   {
-      return eval( 'obj.' + path );
-
+      let result =  eval( 'obj.' + path );
+       if (result === undefined)
+         return "bad path";
+         return result;
   }
  
   //example 
